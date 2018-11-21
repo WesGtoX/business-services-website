@@ -1,0 +1,68 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Pacifico|Patua+One');
+
+body {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.site-wrapper {
+    width: 100%;
+    height: 100%;
+    background-image:  url('../img/Background_1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #F7FFF7;
+}
+
+.navbar-nav li a {
+    font-size: 0.8em;
+    margin: 0px 10px;
+    color: #F7FFF7 !important;
+}
+
+.site-title {
+    text-align: center;
+    margin-top: 7%;
+    height: 74vh;
+}
+
+.site-title h2 {
+    font-size: 3em;
+    margin: 5% 0%;
+}
+
+.title-text {
+    width: 50vw;
+    height: 5vh;
+    font-size: 0.8em;
+    color: #F6F8FF;
+}
+
+.btn-sub1 {
+    font-family: 'Patua One';
+    border: 1px solid #EF233C;
+    background-color: #EDF2F4;
+    color: #EF233C;
+    border-radius: 3px;
+    padding: 0.7em 1em;
+    cursor: pointer;
+    transition: all 500mx ease;
+}
+
+.btn-sub2 {
+    font-family: 'Patua One';
+    padding: 0.7em 1em;
+    background-color: #EF233C;
+    color: #EDF2F4;
+    border: 1px solid #EDF2F4;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 500mx ease;
+}
+
+.site-title i {
+    padding-left: 0.3em;
+}
