@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Pacifico|Patua+One');
+ @import url('https://fonts.googleapis.com/css?family=Bree+Serif|Pacifico|Patua+One'); 
 
 body {
     margin: 0%;
@@ -66,3 +66,50 @@ body {
 .site-title i {
     padding-left: 0.3em;
 }
+
+/* ***************************************** */
+
+/* ******************************************* */
+/* *************** Content- 1 **************** */
+/* ******************************************* */
+
+.content-1 .col-md-12 h6 {
+    font-size: 15px;
+    color: #EF233C;
+}
+
+.content-1 .col-md-12 .title-border {
+    content: '';
+    width: 30%;
+    height: 2px;
+    display: block;
+    background-color: #EF233C;
+    border-radius: 50%; 
+    margin: 1%;
+    margin-left: 35%;
+}
+
+.content-1 .col-md-12 p {
+    font-size: 16px;
+    color: #3F494C;
+}
+
+.content-1 .curcle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 9vw;
+    background-color: #F7FFF7;
+    border: 1px solid rgba(63, 73, 76, 0.205);
+    color: #EF233C;
+    transition: all 200ms ease;
+}
+
+.content-1 .description a {
+    text-decoration: none;
+}
+
+.content-1 .description p {
+    font-size: 16px;
+}
+/****************************************************/
