@@ -70,7 +70,7 @@ body {
 /* ***************************************** */
 
 /* ******************************************* */
-/* *************** Content- 1 **************** */
+/* **************** Content-1 **************** */
 /* ******************************************* */
 
 .content-1 .col-md-12 h6 {
@@ -112,4 +112,25 @@ body {
 .content-1 .description p {
     font-size: 16px;
 }
-/****************************************************/
+/* ***************************************** */
+
+/* ******************************************* */
+/* **************** Content-2 **************** */
+/* ******************************************* */
+
+.content-2 .row .col-1 {
+    background-image: url(../img/image_1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.content-2 .progress-bars {
+    margin-bottom: 8vh;
+}
+
+.progress .pro-1, .pro-2, .pro-3 {
+    width: 0%;
+    transition: all 2s ease;
+}
