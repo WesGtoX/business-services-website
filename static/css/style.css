@@ -218,7 +218,45 @@ body {
 /* **************** Content-4 **************** */
 /* ******************************************* */
 
+.content-4 .nav {
+    justify-content: center;
+    margin: 5%
+}
 
+.content-4 .nav-tabs {
+    margin: 2px;
+    border: 1px solid rgb(232, 232, 232);
+    border-bottom: 0px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #EDF2F4;
+}
+
+.content-4 .tab-item {
+    text-decoration: none;
+    color: #3F494C;
+}
+
+.content-4 .tab-item i {
+    display: block;
+    font-size: 45px;
+    padding: 0.4em 1.7em 0em 1.7em;
+}
+
+.content-4 .tab-item span {
+    display: inline-block;
+    padding-bottom: 1em;
+    width: 100%;
+}
+
+.content-4 .tab-item.active {
+    color: #EF233C;
+}
+
+.tab-content {
+    margin-bottom: 5%;
+    transition: all 400ms ease;
+}
 
 /* ***************************************** */
 
