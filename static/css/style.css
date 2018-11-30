@@ -264,7 +264,50 @@ body {
 /* **************** Content-5 **************** */
 /* ******************************************* */
 
+.content-5 .row {
+    margin-top: 8%;
+}
 
+.content-5 .member-1 .avatar {
+    margin: 20px 0px;
+}
+
+.content-5 .curcle {
+    border-radius: 100px;
+    width: 35%;
+    padding-top: 35px;
+    position: relative;
+    z-index: 4;
+}
+
+.content-5 .avatar span::after {
+    content: "";
+    width: 90%;
+    height: 100px;
+    background-color: #EDF2F4;
+    position: absolute;
+    display: block;
+    top: 3px;
+    z-index: 0;
+}
+
+.content-5 .member-1 .desc .info {
+   padding: 8%;
+   font-size: 14px; 
+}
+
+.content-5 .social-icon {
+    background-color: #EDF2F4;
+    padding: 4%;
+}
+
+.content-5 .social-icon span {
+    border: 1px solid rgba(123, 132 123, 0.2);
+    padding: 4px 8px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
 
 /* ***************************************** */
 
