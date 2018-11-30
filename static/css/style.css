@@ -330,4 +330,44 @@ body {
     cursor: pointer;
 }
 
+/* ***************************************** */
+
+/* ******************************************* */
+/* ****************** Footer ***************** */
+/* ******************************************* */
+
+footer {
+    background-color: black;
+    padding-top: 4%;
+    margin: 0px;
+    position: relative;
+}
+
+footer span {
+    padding: 0.3em 0.7em;
+    color: white;
+    background-color: #242423;
+    border-radius: 50%;
+    margin: 13px 3px;
+    transition: all 500ms ease;
+}
+
+footer p {
+    margin: 0px;
+    color: #3F494C;
+    font-size: 15px;
+    padding-bottom: 8px;
+}
+
+footer .top {
+    position: absolute;
+    right: 2%;
+    top: 69%;
+    transition: all 500ms ease;
+}
+
+footer a {
+    color: #3F494C;
+}
+
 /* ******************************************* */
