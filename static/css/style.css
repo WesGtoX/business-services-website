@@ -74,7 +74,7 @@ body {
 /* ******************************************* */
 
 .content-1 .col-md-12 h6 {
-    font-size: 15px;
+    font-size: 16px;
     color: #EF233C;
 }
 
@@ -152,7 +152,8 @@ body {
 }
 
 .content-3 .col-md-12 p {
-    font-size: 10px;
+    font-size: 16px;
+    padding-top: 3%;
     color: #EF233C;
 }
 
@@ -293,7 +294,7 @@ body {
 
 .content-5 .member-1 .desc .info {
    padding: 8%;
-   font-size: 14px; 
+   font-size: 16px; 
 }
 
 .content-5 .social-icon {
@@ -313,4 +314,20 @@ body {
 
 /* ******************************************* */
 /* **************** Content-6 **************** */
+/* ******************************************* */
+
+.content-6 {
+    margin-bottom: 5%;
+}
+
+.content-6 .contact span {
+    color: #EF233C;
+}
+
+.content-6 .btn-submit {
+    background-color: #EF233C;
+    color: white;
+    cursor: pointer;
+}
+
 /* ******************************************* */
