@@ -1,0 +1,20 @@
+/* ****************************************************** */
+/* ************ Border animation for Navbar ************* */
+/* ****************************************************** */
+.border-animation::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #EF233C;
+    position: relative;
+    display: block;
+    top: 3px;
+    transition: all 400ms ease;
+}
+
+.border-animation:hover::after {
+    width: 100%;
+}
+
+/* ****************************************************** */
+
