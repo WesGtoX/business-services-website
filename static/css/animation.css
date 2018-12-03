@@ -1,9 +1,10 @@
 /* ****************************************************** */
 /* ************ Border animation for Navbar ************* */
 /* ****************************************************** */
+
 .border-animation::after {
     content: "";
-    width: 0%;
+    width: 0px;
     height: 3px;
     background-color: #EF233C;
     position: relative;
@@ -18,3 +19,29 @@
 
 /* ****************************************************** */
 
+/* ****************************************************** */
+/* *********** Button animation of Homepage ************* */
+/* ****************************************************** */
+.btn-sub1:hover {
+    background-color: transparent;
+    padding-right: 30px;
+}
+
+.fa-angle-right {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transition: all 500ms ease;
+}
+
+.btn-sub2:hover {
+    border: 1px solid #EDF2F4;
+    background-color: #352C31;
+}
+
+.fa-angle-double-right {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transition: all 500ms ease;
+}
+
+/* ****************************************************** */

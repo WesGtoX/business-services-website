@@ -49,7 +49,7 @@ body {
     border-radius: 3px;
     padding: 0.7em 1em;
     cursor: pointer;
-    transition: all 500mx ease;
+    transition: all 500ms ease;
 }
 
 .btn-sub2 {
@@ -60,7 +60,7 @@ body {
     border: 1px solid #EDF2F4;
     border-radius: 3px;
     cursor: pointer;
-    transition: all 500mx ease;
+    transition: all 500ms ease;
 }
 
 .site-title i {
