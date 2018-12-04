@@ -36,4 +36,24 @@ $(document).ready(function() {
             });
         }
     );
+
+
+    //Content-1 animation
+    $('.content-1 .col-md-4 .curcle').hover(
+        function() {
+            $(this).css({
+                "width" : "105px",
+                "height" : "105px",
+                "color" : "#3F494C"
+            });
+        },
+        
+        function() {
+            $(this).css({
+                "width" : "100px",
+                "height" : "100px",
+                "color" : "#EF233C"
+            });
+        }
+    );
 });
