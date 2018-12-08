@@ -83,6 +83,30 @@ $(document).ready(function() {
     });
 
 
+    // Pricing Animation
+    var basic_span = ".basic .basic-border:nth-child";
+    
+    $('.basic a').hover(
+        function() {
+            $(basic_span + '(1)').css("width","100%");
+            $(basic_span + '(2)').css("height","100%");
+            $(basic_span + '(3)').css("height","100%");
+            $(basic_span + '(4)').css("width","100%");
+
+            $('.basic hr').css("background-color","red");
+        },
+
+        function() {
+            $(basic_span + '(1)').css("width","30px");
+            $(basic_span + '(2)').css("height","30px");
+            $(basic_span + '(3)').css("height","30px");
+            $(basic_span + '(4)').css("width","30px");
+
+            $('.basic hr').css("background-color","inherit");
+        },
+    );
+
+
 
 
 
