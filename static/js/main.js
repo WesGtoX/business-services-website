@@ -84,10 +84,14 @@ $(document).ready(function() {
 
 
     // Pricing Animation
+
+    //basic
     var basic_span = ".basic .basic-border:nth-child";
     
     $('.basic a').hover(
+
         function() {
+            
             $(basic_span + '(1)').css("width","100%");
             $(basic_span + '(2)').css("height","100%");
             $(basic_span + '(3)').css("height","100%");
@@ -97,6 +101,7 @@ $(document).ready(function() {
         },
 
         function() {
+
             $(basic_span + '(1)').css("width","30px");
             $(basic_span + '(2)').css("height","30px");
             $(basic_span + '(3)').css("height","30px");
@@ -105,9 +110,35 @@ $(document).ready(function() {
             $('.basic hr').css("background-color","inherit");
         },
     );
+    
+    //enterprise
+    var enterprise_span = ".enterprise .basic-border:nth-child";
+    
+    $('.enterprise a').hover(
+        
+        function() {
+
+            $(enterprise_span + '(1)').css("width","100%");
+            $(enterprise_span + '(2)').css("height","100%");
+            $(enterprise_span + '(3)').css("height","100%");
+            $(enterprise_span + '(4)').css("width","100%");
+
+            $('.enterprise hr').css("background-color","red");                
+        },
+
+        function() {
+
+            $(enterprise_span + '(1)').css("width","30px");
+            $(enterprise_span + '(2)').css("height","30px");
+            $(enterprise_span + '(3)').css("height","30px");
+            $(enterprise_span + '(4)').css("width","30px");
+
+            $('.enterprise hr').css("background-color","inherit");                    
+        }
+    );
 
 
 
 
-
+    
 });
