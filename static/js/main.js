@@ -138,7 +138,7 @@ $(document).ready(function() {
     );
 
 
-    //Pro animation border
+    // Pro animation border
     var pro_span = '.pro .pro-span:nth-child';
 
     $('.pro #pro-button').hover(
@@ -171,5 +171,76 @@ $(document).ready(function() {
     );
 
 
+    // Our Services
+    $('.content-4 .nav-tabs:nth-child(1)').css({
+        "background-color" : "#ffffff",
+        "border-top" : "3px solid #E30022"
+    });
+
+    //first tab
+    $('.content-4 .nav-tabs:nth-child(1)').on('focusin', function() {
+        $(this).css({
+            "background-color" : "#ffffff",
+            "border-top" : "3px solid #E30022"
+        })
+    });
+
+    $('.content-4 .nav-tabs:nth-child(1)').on('focusout', function() {
+        $(this).css({
+            "background-color" : '#EDF2F4',
+            "border-top" : "0px"
+        })
+    });
+
+    //second tab
+    $('.content-4 .nav-tabs:nth-child(2)').on('focusin', function() {
+
+        $('.content-4 .nav-tabs:nth-child(1)').css({
+            "background-color" : '#EDF2F4',
+            "border-top" : "0px"
+        })
+
+        $(this).css({
+            "background-color" : "#ffffff",
+            "border-top" : "3px solid #E30022"
+        })
+    });
+
+    $('.content-4 .nav-tabs:nth-child(2)').on('focusout', function() {
+        $(this).css({
+            "background-color" : '#EDF2F4',
+            "border-top" : "0px"
+        })
+    });
+
+    //third tab
+    $('.content-4 .nav-tabs:nth-child(3)').on('focusin', function() {
+        $(this).css({
+            "background-color" : "#ffffff",
+            "border-top" : "3px solid #E30022"
+        })
+    });
+
+    $('.content-4 .nav-tabs:nth-child(3)').on('focusout', function() {
+        $(this).css({
+            "background-color" : '#EDF2F4',
+            "border-top" : "0px"
+        })
+    });
+
+    //forth tab
+    $('.content-4 .nav-tabs:nth-child(4)').on('focusin', function() {
+        $(this).css({
+            "background-color" : "#ffffff",
+            "border-top" : "3px solid #E30022"
+        })
+    });
+
+    $('.content-4 .nav-tabs:nth-child(4)').on('focusout', function() {
+        $(this).css({
+            "background-color" : '#EDF2F4',
+            "border-top" : "0px"
+        })
+    });
     
 });
