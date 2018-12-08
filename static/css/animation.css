@@ -93,6 +93,26 @@
         width: 0.8px;
     }
 
+    .pro .pro-span {
+        position: absolute;
+        background-color: #E30022;
+        transition: all 800ms ease;
+    }
+
+    .pro .pro-span:nth-child(1) {
+        bottom: 40%;
+        right: 0%;
+        width: 1px;
+        height: 130px;
+    }
+
+    .pro .pro-span:nth-child(2) {
+        bottom: 40%;
+        left: 0%;
+        width: 1px;
+        height: 130px;
+    }
+
 }
 
 /* ****************************************************** */

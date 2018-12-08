@@ -138,6 +138,37 @@ $(document).ready(function() {
     );
 
 
+    //Pro animation border
+    var pro_span = '.pro .pro-span:nth-child';
+
+    $('.pro #pro-button').hover(
+
+        function() {
+            
+            $(pro_span + '(1)').css({
+                "height" : "100%",
+                "bottom" : "0%"
+            });
+            
+            $(pro_span + '(2)').css({
+                "height" : "100%",
+                "bottom" : "0%"
+            });
+        },
+
+        function() {
+            
+            $(pro_span + '(1)').css({
+                "height" : "130px",
+                "bottom" : "40%"
+            });
+            
+            $(pro_span + '(2)').css({
+                "height" : "130px",
+                "bottom" : "40%"
+            });
+        }
+    );
 
 
     
