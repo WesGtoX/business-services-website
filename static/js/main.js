@@ -310,5 +310,31 @@ $(document).ready(function() {
             $('nav').removeClass('fixed-top').removeClass('sticky');
         }
     });
+
+
+    // Navigation link
+    $('.nav-item #home').on('click', function() {
+        $('html, body').animate({ scrollTop : 0}, 1000)
+    });
+
+    $('.nav-item #features').on('click', function() {
+        $('html, body').animate({ scrollTop : 450}, 1000)
+    });
+
+    $('.nav-item #pricing').on('click', function() {
+        $('html, body').animate({ scrollTop : 1470}, 1000)
+    });
+
+    $('.nav-item #services').on('click', function() {
+        $('html, body').animate({ scrollTop : 1950}, 1000)
+    });
+
+    $('.nav-item #about-us').on('click', function() {
+        $('html, body').animate({ scrollTop : 2470}, 1000)
+    });
+
+    $('.nav-item #contact-us').on('click', function() {
+        $('html, body').animate({ scrollTop : 2980}, 1000)
+    });
     
 });
