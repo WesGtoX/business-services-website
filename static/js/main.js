@@ -299,5 +299,16 @@ $(document).ready(function() {
             scrollTop : 0
         }, 1500);
     });
+
+
+    // Sticky navbar
+    $(window).scroll(function() {
+        
+        if($(document).scrollTop() > 450) {
+            $('nav').addClass('fixed-top').addClass('sticky');
+        } else {
+            $('nav').removeClass('fixed-top').removeClass('sticky');
+        }
+    });
     
 });
