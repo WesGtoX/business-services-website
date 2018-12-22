@@ -242,5 +242,62 @@ $(document).ready(function() {
             "border-top" : "0px"
         })
     });
+
+
+    // Form validation
+
+    //email validation
+    function validationEMail($email) {
+        var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+        return emailReg.test($email);
+    }
+
+    $('#email').on('focusout', function() {
+
+        if($(this).val() != "") {
+            if(validationEMail($(this).val())) {
+                $(this).css('border','1px solid green');
+                $('#error').text('');
+            } else {
+                $(this).css('border','1px solid red');
+                $('#error').text('Invalid Email Address');
+            }
+
+        } else {
+            $(this).css('border','1px solid red');
+            $('#error').text('Email is Required');
+        }
+    });
+
+    //message validation
+    $('#comment').on('focusout', function() {
+
+        if($(this).val() != "") {
+            $(this).css('border','1px solid green');
+            $('#error').text('');
+        } else {
+            $(this).css('border','1px solid red');
+            $('#error').text('Message is Required');
+        }
+    });
+
+    //name and subject validation
+    $('#name, #subject').on('focusout', function() {
+
+        if($(this).val() != "") {
+            $(this).css('border','1px solid green');
+        } else {
+            $(this).css('border','1px solid rgb(212, 212, 212');
+        }
+    });
+
+
+    // Scroll up
+    $('.top a').on("click", function() {
+        
+        $('html, body').animate({
+            scrollTop : 0
+        }, 1500);
+    });
     
 });
