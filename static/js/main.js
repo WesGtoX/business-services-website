@@ -304,7 +304,7 @@ $(document).ready(function() {
     // Sticky navbar
     $(window).scroll(function() {
         
-        if($(document).scrollTop() > 450) {
+        if($(document).scrollTop() > 250) {
             $('nav').addClass('fixed-top').addClass('sticky');
         } else {
             $('nav').removeClass('fixed-top').removeClass('sticky');
@@ -313,6 +313,10 @@ $(document).ready(function() {
 
 
     // Navigation link
+    $('.navbar-brand #logo').on('click', function() {
+        $('html, body').animate({ scrollTop : 0}, 1000)
+    });
+
     $('.nav-item #home').on('click', function() {
         $('html, body').animate({ scrollTop : 0}, 1000)
     });
