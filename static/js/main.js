@@ -247,7 +247,7 @@ $(document).ready(function() {
     // Form validation
 
     //email validation
-    function validationEMail($email) {
+    function validationEmail($email) {
         var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
         return emailReg.test($email);
     }
@@ -255,7 +255,7 @@ $(document).ready(function() {
     $('#email').on('focusout', function() {
 
         if($(this).val() != "") {
-            if(validationEMail($(this).val())) {
+            if(validationEmail($(this).val())) {
                 $(this).css('border','1px solid green');
                 $('#error').text('');
             } else {
